@@ -12,7 +12,7 @@
 </head>
 <body>
     
-    <section class="flex w-full items-center px-[50px] bg-white shadow-lg">
+    <section class="md:flex hidden w-full items-center px-[50px] bg-white shadow-lg">
         <div class="text-5xl">
             <i class="bi bi-list"></i>
         </div>
@@ -37,11 +37,29 @@
         </div>
         <div class="text-white font-bold bg-purple-800 rounded-3xl ml-[20px] py-[7px] px-[20px]">
             <span><i class="bi bi-person"></i></span>
-            <span class="text-[12px]"> <a href="">SIGN IN</a></span>
+            <span class="text-[12px]"> <a href="./Resort.html">SIGN IN</a></span>
         </div>
     </section>
+    <section class="flex w-full md:hidden items-center px-[10px] bg-white shadow-lg">
+        <div class="text-5xl">
+            <i class="bi bi-list"></i>
+        </div>
+        <div class="w-[120px] ml-[50px]">
+            <img class="w-[100%]" src="./haven.png" alt="">
+        </div>
+        
+      
+        <div class="ml-[90px] font-[50px]">
+            <span><i class="bi bi-person"></i></span>
+            <span class="text-[12px]"> <a href="./Resort.html"></a></span>
+        </div>
+    </section>
+
+
+
+
     
-   <section class="bg-gray-700 bg-center bg-no-repeat h-[200px] bg-blend-multiply">
+   <section class="bg-gray-700 md:block hidden bg-center bg-no-repeat h-[200px] bg-blend-multiply">
     <div class="max-w-screen-xl px-4 py-24 mx-auto text-center lg:py-4">
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">Destinations</h1>
         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
@@ -56,92 +74,164 @@
         <input type="Destinations or hotel" id="Destinations or hotel" class="block w-[600px] h-[70px] p-4 text-sm text-gray-900 border border-gray-300 rounded-lg ps-10 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Destinations or hotel" required />
         
         <div class="">
-            <p class="text-white text-[15px] ml-[490px] mt-[5px] font-bold">SEE FULL MAP <i class="bi bi-arrow-right"></i></p> 
+            <p class="text-white text-[15px] ml-[490px] mt-[5px] font-bold"><a href="./Resort.html">SEE FULL MAP </a><i class="bi bi-arrow-right"></i></p> 
+        </div>
+        
+    </div>
+</form>
+   </section>
+   <section class="bg-gray-700 md:hidden bg-center bg-no-repeat h-[200px] bg-blend-multiply ">
+    <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-4 ">
+        <h1 class="text-4xl font-extrabold text-white md:text-5xl lg:text-6xl">Destinations</h1>
+        <br>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+        <form> 
+       
+    <div class="relative">
+        <div class="absolute flex items-center pointer-events-none mt-[25px] m inset--0 start-0 ps-3">
+           <i class="bi bi-search"></i>
+        </div>
+        <div class="">
+        <input type="Destinations or hotel" id="Destinations or hotel" class="block w-[300px] h-[60px]   text-sm text-gray-900 border border-gray-300 rounded-lg ps-10 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Destinations or hotel" required />
+        </div>
+        
+        <div class="">
+            <p class=" text-[15px] ml-[100px] text-white mt-[5px] font-bold"><a href="./Resort.html">SEE FULL MAP </a><i class="bi bi-arrow-right"></i></p> 
         </div>
         
     </div>
 </form>
    </section>
 
-   <section class="flex w-full">
+
+
+
+
+
+   <section class="hidden w-full md:flex">
     <h4 class="ml-[100px] mt-[30px] font-bold text-[30px]">Destinations</h4>
     
-    <p class="ml-[400px] mt-[30px] mr-[20px]">Whether you are planning an exciting vacation or business trip,select a destination below or explore the map to discover hundreds of countries and cities across Europe, the Middle East, Africa, and Asia Pacific with Radisson Hotels.</p>
+    <p class="ml-[400px] mt-[30px] px-[50px]">Whether you are planning an exciting vacation or business trip,select a destination below or explore the map to discover hundreds of countries and cities across Europe, the Middle East, Africa, and Asia Pacific with Radisson Hotels.</p>
+   </section>
+   <section class="w-full md:hidden">
+    <h4 class="ml-[20px] mt-[30px] font-bold text-[25px]">Destinations</h4>
+    
+    <p class="ml-[20px] mt-[5px] text-[16px]">Whether you are planning an exciting vacation <br> or business trip,select a destination below or <br> explore the map to discover hundreds of <br> countries and cities across Europe, the Middle <br> East, Africa, and Asia Pacific with Radisson <br> Hotels.</p>
    </section>
 
   
 
-   <section class="w-full px-[90px]">
+   <section class="w-full md:block hidden px-[90px]">
      <h4 class="text-[40px]  mt-[100px] mb-[30px]">Popular destinations</h4>
      <div class="flex">
 
         <nav class="relative mr-[20px]">
             <div class="w-[370px] h-[450px] ">
-                <img class="w-[100%] h-[100%] object-cover rounded-lg" src="./What We Offer (4).png" alt="">
+                <img class="w-[100%] h-[100%] object-cover rounded-lg" src="./licensed-image.jpg" alt="">
             </div>
             <div>
-                <a class="bg-white absolute top-[380px] ml-[20px] rounded-3xl px-[20px] py-[10px] font-bold text-[20px]" href="">Magny-le-Hongre</a>
+                <a class="bg-white absolute top-[380px] ml-[20px] rounded-3xl px-[20px] py-[10px] font-bold text-[20px]" href="./Resort.html">Magny-le-Hongre</a>
             </div>
             </nav>
 
     <nav class="relative mr-[20px]">
         <div class="w-[370px] h-[450px]">
-            <img class="w-[100%] h-[100%] object-cover rounded-lg" src="./Untitled design (5).png" alt="">
+            <img class="w-[100%] h-[100%] object-cover rounded-lg" src="./2020-01-04.jpg" alt="">
         </div>
         <div>
-            <a class="bg-white absolute top-[380px] ml-[20px] rounded-3xl px-[20px] py-[10px] font-bold text-[20px]" href="">Magny-le-Hongre</a>
+            <a class="bg-white absolute top-[380px] ml-[20px] rounded-3xl px-[20px] py-[10px] font-bold text-[20px]" href="./Resort.html">Magny-le-Hongre</a>
         </div>
         </nav>
 
         <nav class="relative mr-[20px]">
             <div class="w-[370px] h-[450px]">
-                <img class="w-[100%] h-[100%] object-cover rounded-lg" src="./Untitled design (6).png" alt="">
+                <img class="w-[100%] h-[100%] object-cover rounded-lg" src="./licensed-image (1).jpg" alt="">
             </div>
             <div>
-                <a class="bg-white absolute top-[380px] ml-[20px] rounded-3xl px-[20px] py-[10px] font-bold text-[20px]" href="">Magny-le-Hongre</a>
+                <a class="bg-white absolute top-[380px] ml-[20px] rounded-3xl px-[20px] py-[10px] font-bold text-[20px]" href="./Resort.html">Magny-le-Hongre</a>
             </div>
             </nav>
         </div>
    </section>
+   <section class="w-full md:hidden px-[20px]">
+    <h4 class="text-[30px]  mt-[100px] mb-[30px]">Popular <br> destinations</h4>
+    <div class="">
+
+       <nav class="relative mr-[20px]">
+           <div class="w-[321px] h-[450px] py-[30px] ">
+               <img class="w-[100%] h-[100%] object-cover rounded-lg" src="./licensed-image.jpg" alt="">
+           </div>
+           <div>
+               <a class="bg-white absolute top-[350px] ml-[20px] rounded-3xl px-[20px] py-[10px] font-bold text-[20px]" href="./Resort.html">Johannesburg</a>
+           </div>
+           </nav>
+
+   <nav class="relative mr-[20px]">
+       <div class="w-[321px] h-[450px] py-[30px]">
+           <img class="w-[100%] h-[100%] object-cover rounded-lg" src="./Untitled design (5).png" alt="">
+       </div>
+       <div>
+           <a class="bg-white absolute top-[350px] ml-[20px] rounded-3xl px-[10px] py-[10px] font-bold text-[20px]" href="./Resort.html">Magny-le-Hongre</a>
+       </div>
+       </nav>
+
+       <nav class="relative mr-[20px]">
+           <div class="w-[321px] h-[450px]">
+               <img class="w-[100%] h-[100%] object-cover rounded-lg" src="./2020-01-04.jpg" alt="">
+           </div>
+           <div>
+               <a class="bg-white absolute top-[380px] ml-[20px] rounded-3xl px-[20px] py-[10px] font-bold text-[20px]" href="./Resort.html">Lagos</a>
+           </div>
+           </nav>
+       </div>
+  </section>
+  
 
 
-<section class="w-full py-[50px]">
+
+
+
+
+  
+
+
+<section class="w-full py-[50px] md:block hidden">
     <h4 class="text-[30px] ml-[90px]">Discover all our properties</h4>
 
-<button type="button" class="text-gray-900 bg-white border ml-[80px] mt-[20px] border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Africa</button>
-<button type="button" class="text-gray-900 bg-white border  border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Asia Pacific</button>
-<button type="button" class="text-gray-900 bg-white border  border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Europe & CIS</button>
-<button type="button" class="text-gray-900 bg-white border  border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Middle East</button>
+<button type="button" class="text-gray-900 bg-white border ml-[80px] mt-[20px] border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"><a href="./Resort.html">Africa</a></button>
+<button type="button" class="text-gray-900 bg-white border  border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"><a href="./Resort.html">Asia Pacific</a></button>
+<button type="button" class="text-gray-900 bg-white border  border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"><a href="./Resort.html">Europe & CIS</a></button>
+<button type="button" class="text-gray-900 bg-white border  border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"><a href="./Resort.html">Middle East</a></button>
 
 <nav class="mt-[30px]">
   
   <div class="ml-[90px] items-center font-bold">
     <a class=" text-[22px]" href="">Chad (1)</a>
-    <a class="text-[20px]  ml-[1250px]" href=""><i class="bi bi-plus-lg"></i></a>
+    <a class="text-[20px]  ml-[1250px]" href="./Resort.html"><i class="bi bi-plus-lg"></i></a>
     <hr class="w-[1375px] mt-[10px]">
     </div>
     
     <div class="ml-[90px] mt-[20px] items-center font-bold">
       <a class=" text-[22px]" href="">Côte d'Ivoire (1)</a>
-      <a class="text-[20px]  ml-[1170px]" href=""><i class="bi bi-plus-lg"></i></a>
+      <a class="text-[20px]  ml-[1170px]" href="./Resort.html"><i class="bi bi-plus-lg"></i></a>
       <hr class="w-[1375px] mt-[10px]">
     </div>
     
     <div class="ml-[90px] mt-[20px] items-center font-bold">
-        <a class=" text-[22px]" href="">Egypt (5)</a>
-        <a class="text-[20px]  ml-[1250px]" href=""><i class="bi bi-plus-lg"></i></a>
+        <a class=" text-[22px]" href="./Resort.html">Egypt (5)</a>
+        <a class="text-[20px]  ml-[1250px]" href="./Resort.html"><i class="bi bi-plus-lg"></i></a>
         <hr class="w-[1375px] mt-[10px]">
         </div>
         
       <div class="ml-[90px] mt-[20px] items-center font-bold">
           <a class=" text-[22px]" href="">Mali (2)</a>
-          <a class="text-[20px]  ml-[1250px]" href=""><i class="bi bi-plus-lg"></i></a>
+          <a class="text-[20px]  ml-[1250px]" href="./Resort.html"><i class="bi bi-plus-lg"></i></a>
           <hr class="w-[1375px] mt-[10px]">
           </div>
           
       <div class="ml-[90px] mt-[20px] items-center font-bold">
           <a class=" text-[22px]" href="">Mauritius (2)</a>
-          <a class="text-[20px]  ml-[1050px]" href=""><i class="bi bi-plus-lg"></i></a>
+          <a class="text-[20px]  ml-[1050px]" href="./Resort.html"><i class="bi bi-plus-lg"></i></a>
           <hr class="w-[1375px] mt-[10px]">
           </div>
           
@@ -149,44 +239,129 @@
             <a class=" text-[22px]" href="">Madagascar (3)</a>
             <a class="text-[20px]  ml-[1150px]" href=""><i class="bi bi-plus-lg"></i></a>
             <hr class="w-[1375px] mt-[10px]">
-            </div>
+         </div>
             
         <div class="ml-[90px] mt-[20px] items-center font-bold">
               <a class=" text-[22px]" href="">Libya (1)</a>
               <a class="text-[20px]  ml-[1250px]" href=""><i class="bi bi-plus-lg"></i></a>
               <hr class="w-[1375px] mt-[10px]">
-              </div>
+        </div>
               
         <div class="ml-[90px] mt-[20px] items-center font-bold">
                 <a class=" text-[22px]" href="">Kenya (3)</a>
                 <a class="text-[20px]  ml-[1250px]" href=""><i class="bi bi-plus-lg"></i></a>
                 <hr class="w-[1375px] mt-[10px]">
-                </div>
+          </div>
                 
          <div class="ml-[90px] mt-[20px] items-center font-bold">
                   <a class=" text-[22px]" href="">Ghana (1)</a>
                   <a class="text-[20px]  ml-[1250px]" href=""><i class="bi bi-plus-lg"></i></a>
                   <hr class="w-[1375px] mt-[10px]">
-                  </div>
+         </div>
                   
           <div class="ml-[90px] mt-[20px] items-center font-bold">
                     <a class=" text-[22px]" href="">Gabon (2)</a>
                     <a class="text-[20px]  ml-[1250px]" href=""><i class="bi bi-plus-lg"></i></a>
                     <hr class="w-[1375px] mt-[10px]">
-                    </div>
+        </div>
                     
            <div class="ml-[90px] mt-[20px] items-center font-bold">
                       <a class=" text-[22px]" href="">Ethiopia (1)</a>
                       <a class="text-[20px]  ml-[1250px]" href=""><i class="bi bi-plus-lg"></i></a>
                       <hr class="w-[1375px] mt-[10px]">
-                      </div>
+            </div>
+</nav>
+</section>
+
+
+<section class="w-full py-[50px] md:hidden">
+    <h4 class="text-[20px] ml-[30px]">Discover all our properties</h4>
+<div class="flex">
+<button type="button" class="text-gray-900 bg-white border ml-[30px] mt-[20px] border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"><a href="./Resort.html">Africa</a></button>
+<button type="button" class="text-gray-900 bg-white border  border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"><a href="./Resort.html">Middle East</a></button>
+</div>
+
+<div class="ml-[20px]">
+    <button type="button" class="text-gray-900 bg-white border  border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"><a href="./Resort.html">Europe & CIS</a></button>
+   <button type="button" class="text-gray-900 bg-white border  border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"><a href="./Resort.html">Middle East</a></button>
+</div>
+
+<nav class="mt-[30px] ml-[20px]">
+  
+  <div class="items-center font-bold ">
+    <a class=" text-[18px]" href="">Chad (1)</a>
+    <a class="text-[10px]  ml-[200px]" href="./Resort.html"><i class="bi bi-plus-lg"></i></a>
+    <hr class="w-[320px] mt-[10px]">
+    </div>
+    
+    <div class="mt-[20px] items-center font-bold">
+      <a class=" text-[18px]" href="">Côte d'Ivoire (1)</a>
+      <a class="text-[10px]  ml-[300px]" href="./Resort.html"><i class="bi bi-plus-lg"></i></a>
+      <hr class="w-[300px]">
+    </div>
+    
+    <div class=" mt-[20px] items-center font-bold">
+        <a class=" text-[18px]" href="./Resort.html">Egypt (5)</a>
+        <a class="text-[20px]  ml-[220px]" href="./Resort.html"><i class="bi bi-plus-lg"></i></a>
+        <hr class="w-[320px] mt-[10px]">
+        </div>
+        
+      <div class="mt-[20px] items-center font-bold">
+          <a class=" text-[18px]" href="">Mali (2)</a>
+          <a class="text-[20px]  ml-[250px]" href="./Resort.html"><i class="bi bi-plus-lg"></i></a>
+          <hr class="w-[320px] mt-[10px]">
+          </div>
+          
+      <div class="mt-[20px] items-center font-bold">
+          <a class=" text-[18px]" href="">Mauritius (2)</a>
+          <a class="text-[20px]  ml-[320px]" href="./Resort.html"><i class="bi bi-plus-lg"></i></a>
+          <hr class="w-[320px] mt-[10px]">
+          </div>
+          
+        <div class=" mt-[20px] items-center font-bold">
+            <a class=" text-[18px]" href="">Madagascar (3)</a>
+            <a class="text-[20px]  ml-[150px]" href=""><i class="bi bi-plus-lg"></i></a>
+            <hr class="w-[320px] mt-[10px]">
+         </div>
+            
+        <div class=" mt-[20px] items-center font-bold">
+              <a class=" text-[18px]" href="">Libya (1)</a>
+              <a class="text-[20px]  ml-[250px]" href=""><i class="bi bi-plus-lg"></i></a>
+              <hr class="w-[320px] mt-[10px]">
+        </div>
+              
+        <div class="mt-[20px] items-center font-bold">
+                <a class=" text-[18px]" href="">Kenya (3)</a>
+                <a class="text-[20px]  ml-[250px]" href=""><i class="bi bi-plus-lg"></i></a>
+                <hr class="w-[320px] mt-[10px]">
+          </div>
+                
+         <div class="mt-[20px] items-center font-bold">
+                  <a class=" text-18px]" href="">Ghana (1)</a>
+                  <a class="text-[20px]  ml-[250px]" href=""><i class="bi bi-plus-lg"></i></a>
+                  <hr class="w-[320px] mt-[10px]">
+         </div>
+                  
+          <div class="mt-[20px] items-center font-bold">
+                    <a class=" text-[18px]" href="">Gabon (2)</a>
+                    <a class="text-[20px]  ml-[250px]" href=""><i class="bi bi-plus-lg"></i></a>
+                    <hr class="w-[320px] mt-[10px]">
+        </div>
+                    
+           <div class="mt-[20px] items-center font-bold">
+                      <a class=" text-[18px]" href="">Ethiopia (1)</a>
+                      <a class="text-[20px]  ml-[250px]" href=""><i class="bi bi-plus-lg"></i></a>
+                      <hr class="w-[320px] mt-[10px]">
+            </div>
 </nav>
 </section>
 
 
 
 
-<section class="bg-[#29343D] w-full py-[20px]">
+
+
+<section class="bg-[#29343D] md:block hidden w-full py-[20px]">
   <nav class="flex ml-[500px] items-center">
       <a class="text-white text-[13px] font-semibold hover:underline" href="">NEVER MISS OUT ON OUR MOST POPULAR DEALS</a>
     
@@ -201,8 +376,26 @@
   </nav>
 
 </section>
+<section class="bg-[#29343D] md:hidden w-full py-[20px]">
+    <nav class="ml-[35px] items-center">
+        <a class="text-white text-[13px] font-semibold hover:underline" href="">NEVER MISS OUT ON OUR MOST POPULAR DEALS</a>
+      
+      <div class="ml-[30px] mt-[20px] text-[20px] text-white">
+        <span class="mr-[20px]"><i class="bi bi-facebook"></i></span>
+        <span class="mr-[20px]"><i class="bi bi-instagram"></i></span>
+        <span class="mr-[20px]"><i class="bi bi-pinterest"></i></span>
+        <span class="mr-[20px]"><i class="bi bi-twitter-x"></i></span>
+        <span class="mr-[20px]"><i class="bi bi-youtube"></i></span>
+        <span><i class="bi bi-linkedin"></i></span>
+      </div>
+    </nav>
 
-<section class="bg-[#29343D] w-full border-y border-y-gray-400 pl-[80px] pt-[20px] pb-[40px]">
+</section>
+
+
+
+
+<section class="bg-[#29343D] md:block hidden w-full border-y border-y-gray-400 pl-[80px] pt-[20px] pb-[40px]">
     <nav>
       <p class="text-white text-[18px]">Hot destinations</p>
       <div class="mt-[30px]">
@@ -232,9 +425,41 @@
       </div>
     </nav>
 </section>
+<section class="bg-[#29343D] w-full md:hidden pl-[20px] pt-[20px] pb-[40px]">
+    <nav class="flex items-center">
+      <p class="text-white text-[18px]">Hot destinations</p>
+      <a class="text-white text-[23px] ml-[185px]" href=""><i class="bi bi-plus-lg"></i></a>
+    </nav>
+    <nav class="flex mt-[20px] items-center">
+        <p class="text-white text-[18px]">Quick links</p>
+        <a class="text-white text-[23px] ml-[230px]" href=""><i class="bi bi-plus-lg"></i></a>
+      </nav>
+      <nav class="flex mt-[20px] items-center">
+        <p class="text-white text-[18px]">Travel professionals</p>
+        <a class="text-white text-[23px] ml-[160px]" href=""><i class="bi bi-plus-lg"></i></a>
+      </nav>
+      <nav class="flex mt-[20px] items-center">
+        <p class="text-white text-[18px]">Corporate</p>
+        <a class="text-white text-[23px] ml-[235px]" href=""><i class="bi bi-plus-lg"></i></a>
+      </nav>
+      <nav class="flex mt-[20px] items-center">
+        <p class="text-white text-[18px]">Legal</p>
+        <a class="text-white text-[23px] ml-[270px]" href=""><i class="bi bi-plus-lg"></i></a>
+      </nav>
+      <nav class="flex mt-[20px] items-center">
+        <p class="text-white text-[18px]">Help</p>
+        <a class="text-white text-[23px] ml-[275px]" href=""><i class="bi bi-plus-lg"></i></a>
+      </nav>
+</section>
 
 
-<section class="w-full border-b pt-[20px] pl-[80px] pb-[40px] border-b-gray-400 bg-[#29343D]">
+
+
+
+
+
+
+<section class="w-full md:block hidden border-b pt-[20px] pl-[80px] pb-[40px] border-b-gray-400 bg-[#29343D]">
   <nav class="flex">
   <div>
       <p class="border-b border-b-gray-400 w-[220px]
@@ -289,12 +514,17 @@
       <p class="text-white font-normal text-[15px]">Contact</p>
       <p class="text-white font-normal text-[15px]">FAQ</p>
       <p class="text-white font-normal text-[15px]">Sitemap</p>
-  </div>
-</nav>
+  </div></nav>
 </section>
 
-<section class="w-full bg-[#29343D] px-[50px] py-[20px]">
+
+
+
+<section class="w-full md:block hidden bg-[#29343D] px-[50px] py-[20px]">
   <p class="text-gray-400 text-[14px]">© 2024 Radisson Hotel Group. All rights reserved. RHG Radisson Hotel Group, Radisson, Radisson RED, Radisson Blu, Radisson Collection, Radisson Individuals, Park Plaza, Park Inn, Country Inn & <br> Suites, prizeotel, Radisson Rewards, and Radisson Meetings are trademarks of Radisson Hotel Group</p>
+</section>
+<section class="w-full md:hidden bg-[#29343D] px-[15px] py-[20px]">
+    <p class="text-gray-400 text-[14px]">© 2024 Radisson Hotel Group. All rights reserved. RHG Radisson Hotel Group, Radisson, Radisson RED, Radisson Blu, Radisson Collection, Radisson Individuals, Park Plaza, Park Inn, Country Inn & <br> Suites, prizeotel, Radisson Rewards, and Radisson Meetings are trademarks of Radisson Hotel Group</p>
 </section>
     
 </body>
