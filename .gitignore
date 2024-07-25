@@ -3,5 +3,9 @@
 /package.json
 /tailwind.config.js
 /input.css
+<<<<<<< HEAD
+/output.css
+=======
 /output.css
 /groupa.css
+>>>>>>> e5ff6182a0f91b90106f818c64dac78d1689f797
